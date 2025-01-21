@@ -1,67 +1,56 @@
-Pocket Tracker
+# Pocket Tracker (Python Version)
 
-Pocket Tracker is a project developed using Python. This is a demo version of the Pocket Tracker Web Application, built entirely based on the Python concepts I have learned so far.
+A simple command-line-based expense tracker built with Python. This application allows users to record, manage, and review their expenses using a `.data` file for storage.
 
-Features
+## Features
+- Add expenses with categories
+- View total expenses
+- Search expenses by category
+- Persistent storage using a `.data` file
+- Simple command-line interface
 
-Expense tracking
+## Installation
 
-Income management
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/abhihaas9391/pocket_tracker_python.git
+   cd pocket-tracker-python
+   ```
 
-Data visualization
+2. Install required dependencies (if any):
+   ```sh
+   pip install -r requirements.txt
+   ```
 
-User authentication (if implemented)
+## Usage
 
-Technologies Used
+Run the script:
+```sh
+python tracker.py
+```
 
-Python
+### Commands
+- **Add an expense**: Enter the amount, category, and description.
+- **View expenses**: Display all recorded transactions.
+- **Search by category**: Filter transactions based on category.
+- **Exit**: Save data and close the application.
 
-Flask / Django (Specify if used)
+## Data Storage
+All transactions are stored in `expenses.data` in a structured format. The program automatically reads and writes to this file.
 
-SQLite / MySQL (Specify if used)
+## Example
+```sh
+Welcome to Pocket Tracker!
+1. Add Expense
+2. View Expenses
+3. Search by Category
+4. Exit
+Enter your choice: 1
+Enter amount: 500
+Enter category: Food
+Enter description: Lunch at cafe
+Expense added successfully!
+```
 
-HTML, CSS, JavaScript (If applicable)
 
-Installation
-
-Clone the repository:
-
-git clone https://github.com/yourusername/pocket-tracker.git
-cd pocket-tracker
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-Run the application:
-
-python app.py  # Adjust if using Django or other frameworks
-
-Usage
-
-Open http://localhost:5000/ in your browser (if using Flask) or the respective URL for Django.
-
-Add your expenses and income.
-
-View reports and insights.
-
-Future Improvements
-
-Full-fledged web application with React.js frontend
-
-Smart insights and analytics
-
-Gamification and reward system
-
-Enhanced UI/UX
-
-Security enhancements
-
-Contributing
-
-Feel free to fork this repository and contribute by submitting pull requests.
-
-License
-
-This project is licensed under the MIT License.
 
