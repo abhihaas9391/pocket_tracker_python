@@ -17,16 +17,12 @@ A simple command-line-based expense tracker built with Python. This application 
    cd pocket-tracker-python
    ```
 
-2. Install required dependencies (if any):
-   ```sh
-   pip install -r requirements.txt
-   ```
 
 ## Usage
 
 Run the script:
 ```sh
-python tracker.py
+python demo.py
 ```
 
 ### Commands
