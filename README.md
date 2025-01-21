@@ -22,7 +22,7 @@ A simple command-line-based expense tracker built with Python. This application 
 
 Run the script:
 ```sh
-python demo.py
+python demo_v2.py
 ```
 
 ### Commands
